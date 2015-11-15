@@ -1,6 +1,6 @@
 #!/bin/bash
-./lib/adb push system /system
 ./lib/adb remount
+./lib/adb push system /system
 ./lib/adb shell chmod 775 /system/xbin/flash_image
 ./lib/adb shell chmod 775 /system/xbin/flash_lock
 ./lib/adb shell chmod 775 /system/xbin/flash_unlock
