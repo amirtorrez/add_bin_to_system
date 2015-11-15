@@ -1,6 +1,6 @@
 #!/bin/bash
-./lib/adb.mac push system /system
 ./lib/adb.mac remount
+./lib/adb.mac push system /system
 ./lib/adb.mac shell chmod 775 /system/xbin/flash_image
 ./lib/adb.mac shell chmod 775 /system/xbin/flash_lock
 ./lib/adb.mac shell chmod 775 /system/xbin/flash_unlock
