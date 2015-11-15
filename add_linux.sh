@@ -5,6 +5,7 @@
 ./lib/adb shell chmod 775 /system/xbin/flash_lock
 ./lib/adb shell chmod 775 /system/xbin/flash_unlock
 ./lib/adb shell chmod 775 /system/xbin/uname
+./lib/adb shell chmod 775 /system/xbin/unmount
 ./lib/adb shell chmod 775 /system/xbin/unzip
 ./lib/adb shell chmod 775 /system/xbin/vi
 ./lib/adb shell chmod 775 /system/xbin/wget
